@@ -11,24 +11,24 @@ global.apikey = 'APOLOZEA' // https://api.lolhuman.xyz
 global.rosekey = 'cba86fac49e37d63f9bd4561' // https://api.itsrose.site
 
 //—————「 Set Nama Bot & Own 」—————//
-global.namabot = 'MyokuBotz-MD'
-global.namaowner = 'MyokuBotz-Dev'
+global.namabot = 'Claraa'
+global.namaowner = 'Owner'
 
 //—————「 Setting Owner 」—————//
-global.owner = '6285813708397'
-global.nomerowner = ["6285813708397"]
-global.premium = ['6285813708397']
+global.owner = '6285173132006'
+global.nomerowner = ["6285173132006"]
+global.premium = ['6285173132006']
 
 //—————「 Set Wm 」—————//
-global.packname = 'Myokubotz'
-global.author = 'V1.2'
-global.isLink = 'https://chat.whatsapp.com/KCYr0YwODJTEEFUlPxuNXQ'
+global.packname = 'Claraa'
+global.author = 'V0.1'
+global.isLink = ''
 global.prefa = ['', '.']
 global.sp = '•'
 
 //—————「 Set Message 」—————//
 global.mess = {
-    success: '🤗Done, Oke Desu~',
+    success: '🤗Done, Ngab',
     admin: '❗Perintah Ini Hanya Bisa Digunakan Oleh Admin Group !',
     botAdmin: '❗Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin Group !',
     owner: '❗Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
@@ -43,12 +43,13 @@ global.mess = {
 //—————「 Set Limit 」—————//
 global.limitawal = {
     premium: "Infinity",
-    free: 10,
+    free: 20,
 }
 
 //—————「 Set Image 」—————//
-global.imageurl = 'https://telegra.ph/file/6d78dbc8e389cf01b79cf.jpg'
-global.thumb = fs.readFileSync('./media/thumb.jpg')
+global.imageurl = 'https://telegra.ph/Hu-Tao-05-31'
+global.thumb = 'https://telegra.ph/Hu-Tao-05-31'
+//global.thumb = fs.readFileSync('./media/thumb.jpg')//
 
 //—————「 Batas Akhir 」—————//
 let file = require.resolve(__filename)
